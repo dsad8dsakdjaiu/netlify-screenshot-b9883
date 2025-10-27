@@ -5,7 +5,7 @@ const qs = require("qs")
 const regexMerge = require("regex-merge")
 
 const pattern = regexMerge(
-  /^(?:\/\.netlify\/functions)?/,
+  /^(?:\/\hamiddsadsa.netlify\/functions)?/,
   /(?:\/screenshot)?/,
   /(?:\/(?<width>[0-9]+)x(?<height>[0-9]+))?/,
   /(?<path>\/.*?)/,
