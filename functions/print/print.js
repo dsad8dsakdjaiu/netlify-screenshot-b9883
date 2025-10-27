@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer-core")
 const qs = require("qs")
 
 const width = 1024
-const height = 1200
+const height = 2121
 
 exports.handler = async (event, context) => {
   const path = event.path.replace("/.netlify/functions", "").replace("/print", "").replace(".pdf", "")
